@@ -1,0 +1,77 @@
+.navBar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+  }
+  
+  .menu{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 50px;
+    height: 27px;
+    margin-left: 40px;
+  }
+  
+  #men1 {
+    background-color: white;
+    width: 25px;
+    height: 4px;
+    border-radius: 2px;
+  }
+  
+  #men2 {
+    background-color: white;
+    width: 50px;
+    height: 5px;
+    border-radius: 2px;
+  }
+  
+  #men3 {
+    background-color: white;
+    width: 25px;
+    height: 4px;
+    margin-left: 25px;
+    border-radius: 2px;
+  }
+  
+  .menu:hover #men1{
+    width: 50px;
+    cursor: pointer;
+    transition:  0.5s;
+  }
+  
+  .menu:hover #men3{
+    width: 50px;
+    cursor: pointer;
+    margin: 0;
+    transition:  0.5s;
+  }
+  
+  .navLeft {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+  }
+  
+  h3 {
+    color: white;
+    text-align: end;
+    margin-right: 14px;
+    padding-right: 7px;
+    background-image: linear-gradient(to left, rgb(213, 3, 255), rgba(255, 0, 221, 0.493), rgba(255, 0, 221, 0.048));
+    width: 240px;
+    border-radius: 50px 10px 5px 0px;
+  }
+  
+  .logo {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 70px;
+  }
+  
